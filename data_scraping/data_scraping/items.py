@@ -9,5 +9,6 @@ import scrapy
 class DataScrapingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    label = scrapy.Field()
+    title = scrapy.Field()
     text = scrapy.Field()
+    label = scrapy.Field()
